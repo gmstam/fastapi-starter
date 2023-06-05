@@ -5,4 +5,6 @@
 3. Installare dipendenze:
    - pip install fastapi
    - pip install uvicorn
+4. Creare file dipendenze:
+   - pip freeze > requirements.txt
 4. avvio: uvicorn books:app --reload
